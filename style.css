@@ -102,3 +102,23 @@ header p {
   width: 64px;
   height: 64px;
 }
+
+@media (width <= 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    padding: 40px;
+  }
+  header h1 {
+    text-align: start;
+    font-size: 22px;
+  }
+  header p {
+    text-align: start;
+  }
+  .desktop-br {
+    display: none;
+  }
+}
